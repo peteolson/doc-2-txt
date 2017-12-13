@@ -79,7 +79,7 @@ def cleanup(zip_file):
     os.remove(zip_file)
     return None
 
-zip_dir = sys.argv[1]
+zip_dir = sys.argv[0]
 zip_file_location = prepare_zipfile(zip_dir)
 zip_ref_obj = extract_zipfile(zip_file_location)
 t_elem_node_list = parse_xml_t_elements_to_list(source_xml_file='./temp/word/document.xml')
