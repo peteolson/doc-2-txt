@@ -16,6 +16,8 @@ def getText(filename):
         fullText.append(para.text)
     return '\n'.join(fullText)
 
+
+
 #print(getText("bakedFish.docx"))
 
 def document_to_text(filename):
